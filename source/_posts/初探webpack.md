@@ -40,3 +40,5 @@ module.export = {
 > | array | ['./app/entry1', './app/entry2'] | 入口木块的文件路径，可以是相对路径|
 > | object| { a: './app/entry-a', b: ['./app/entry-b-1', './app/entry-b-2'] } | 配置多个入口，每个入口生成一个chunk|
 >  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果是array类型，则搭配output.library配置项使用时，只有数组里的最后一个入口文件的模块会被导出。（<font color="red">可以在入口文件进行polyfill的加载</font>）
+
+test
