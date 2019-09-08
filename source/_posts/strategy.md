@@ -5,7 +5,6 @@ tags: JavaScript
 categories: JavaScript
 ---
 #### 定义：定义一系列的算法，把他们一个个封装起来，是他们可以相互替换。
-<!-- more -->
 &emsp;&emsp; 例如：根据不同得等级来计算工资
 ```js
  var calculateBonus = function (performanceLevel, salary) {
